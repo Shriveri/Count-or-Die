@@ -35,5 +35,11 @@
         - Maybe next time if level or game is lost.
 # Thresholds
  1. Count Threshold
- 2. LightSensorThreshold
+     - Level 0 = 0
+     - Level 1 = 10
+     - Level 2 = 15
+     - Level 3 = 20
+     - Level 4 = 25
+     - Level 5 = 30
+ 3. LightSensorThreshold
      - Low = 100
