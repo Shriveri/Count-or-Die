@@ -1,5 +1,5 @@
 # Count-or-Die
-Count-or-Die is a interactive game to be played on the CPX board. 
+   1. Count-or-Die is a interactive game to be played on the CPX board. 
 # Rules
    1. Use the switch to turn the game on and off.  
    2. To reset the game, press both buttons. 
@@ -13,15 +13,15 @@ Count-or-Die is a interactive game to be played on the CPX board.
    10. Now that you understand the game, hover your hand over the device to get started.'
 # Inputs
  1. Right Button
-     Increases Count.
+     - Increases Count.
  2. Left Button
-     Decreases Count.
+     - Decreases Count.
  3. Both Left Button and Right Button
-     Resets Game.
+     - Resets Game.
  4. Switch
-     Turns Game On and Off.
+     - Turns Game On and Off.
  5. Light Sensor
-     If light level is decreased below light threshold then system registers the count as a           final answer.
+     - If light level is decreased below light threshold then system registers the count as final answer.
 # Outputs
 1. IEDS
     - Displays Green if level is completed
@@ -36,4 +36,4 @@ Count-or-Die is a interactive game to be played on the CPX board.
 # Thresholds
  1. Count Threshold
  2. LightSensorThreshold
-     Low = 100
+     - Low = 100
