@@ -23,16 +23,16 @@ Count-or-Die is a interactive game to be played on the CPX board.
  5. Light Sensor
      If light level is decreased below light threshold then system registers the count as a           final answer.
 # Outputs
- 1. IEDS
+1. IEDS
      Displays Green if level is completed
      Displays Red if level is failed
      Displays Blue if thresholds for count are confirmed.
- 2. Serial
-     Prints:
-        Rules when game is turned on.
-        Score at the end of each level.
-        Winner if level or game is won.
-        Maybe next time if level or game is lost.
+2. Serial
+     - Prints:
+           Rules when game is turned on.
+           Score at the end of each level.
+           Winner if level or game is won.
+           Maybe next time if level or game is lost.
 # Thresholds
  1. Count Threshold
  2. LightSensorThreshold
