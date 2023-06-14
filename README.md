@@ -22,8 +22,8 @@
      - If light level is decreased below light threshold then system registers the count as final answer.
 # Outputs
 1. IEDS
-    - Displays Green if level is completed
-    - Displays Red if level is failed
+    - Displays Green if the count is correct when confirmed.
+    - Displays Red if the count is incorrect when confirmed.
     - Displays Blue if the game undergos a reset.
 2. Serial
      - Prints:
