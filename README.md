@@ -1,16 +1,14 @@
-# Count-or-Die
-   1. Count-or-Die is a interactive game to be played on the CPX board. 
+# ButtonMasher2000
+   1. ButtonMasher2000 is a interactive game to be played on the CPX board that centers on reliving stress.
 # Rules
    1. Use the switch to turn the game on and off.  
-   2. To reset the game, press both buttons. 
+   2. To reset the game, press both buttons when the game is off. 
    3. To increase the count, press the right button.
    4. To decrease the count, press the left button. 
-   5. Hover your hand over the CPX board to confirm count. 
-   6. You will have 30 seconds every round to achieve the correct count.
-   7. If the count matches the given count at the beginning of the round, then the round is won.
-   8. If the count doesn’t match then the round is lost.
-   9. You need to win a total of 3 out of 5 rounds to beat the game.
-   10. Now that you understand the game, hover your hand over the device to get started.'
+   5. Hover your flashlight or a light source over the cpx board to confirm answer. 
+   6. If the count matches the given count at the beginning of the round, then the round is won.
+   8. If the count doesn’t match then the count is reset.
+   9. Now that you understand the game, confirm a count of 0. 
 # Inputs
  1. Right Button
      - Increases Count.
@@ -26,20 +24,19 @@
 1. IEDS
     - Displays Green if level is completed
     - Displays Red if level is failed
-    - Displays Blue if thresholds for count are confirmed.
+    - Displays Blue if the game undergos a reset.
 2. Serial
      - Prints:
-        - Rules when game is turned on.
+        - Introductory Paragraph explaning rules and how to play.
         - Score at the end of each level.
-        - Winner if level or game is won.
-        - Maybe next time if level or game is lost.
+        - Threshold of the following level.
 # Thresholds
  1. Count Threshold
      - Level 0 = 0
      - Level 1 = 10
-     - Level 2 = 15
-     - Level 3 = 20
-     - Level 4 = 25
-     - Level 5 = 30
+     - Level 2 = 20
+     - Level 3 = -40
+     - Level 4 = 30
+     - Level 5 = 100
  3. LightSensorThreshold
-     - Low = 100
+     FlashlightThreshold is 700
